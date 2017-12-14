@@ -1,0 +1,133 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2006
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{17EA7441-6050-4607-A666-FC4B3E237B13}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Plugins", "Plugins", "{FA106807-AF9E-4938-A3DB-573120B89809}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentations", "Presentations", "{756C8714-7C8A-49C6-9C9D-751AF81B5C72}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{886B388F-E783-4535-9E9F-A977B00BF3C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pluto.Core", "Libraries\Pluto.Core\Pluto.Core.csproj", "{6715EA13-1146-4378-946A-C562D786D289}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pluto.Data", "Libraries\Pluto.Data\Pluto.Data.csproj", "{8A4BF3C8-BAD4-4139-AF40-15F7FDF89266}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pluto.Services", "Libraries\Pluto.Services\Pluto.Services.csproj", "{D55AF973-15CF-4046-B106-5F88CDCBD93F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pluto.Web", "Presentations\Pluto.Web\Pluto.Web.csproj", "{FBDD0493-BAE1-4FFC-BC8C-AD69FF2816AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pluto.Mvc", "Presentations\Pluto.Mvc\Pluto.Mvc.csproj", "{B4A160AE-D011-4728-AA55-9C3F514F0302}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pluto.Single", "Presentations\Pluto.Single\Pluto.Single.csproj", "{2471794C-79B0-4356-9825-F5CF941A85CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pluto.Empty", "Presentations\Pluto.Empty\Pluto.Empty.csproj", "{422C42C4-5B41-44A7-BF69-75EF381AD5CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pluto.Api", "Presentations\Pluto.Api\Pluto.Api.csproj", "{56930EB6-FE74-4A5E-AF77-A11D1046A018}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pluto.Core.Tests", "Tests\Pluto.Core.Tests\Pluto.Core.Tests.csproj", "{CB254173-89AB-4C4A-9F8E-368830313156}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pluto.Data.Tests", "Tests\Pluto.Data.Tests\Pluto.Data.Tests.csproj", "{72508337-73E0-451B-BFBD-B9AC403B8859}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pluto.Services.Tests", "Tests\Pluto.Services.Tests\Pluto.Services.Tests.csproj", "{67708B6B-144A-4131-83CA-46B4BABF92C3}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Pluto.Site", "Presentations\Pluto.Site\", "{89460A4F-4B3F-4D58-B2C7-4BE24CA6A7D2}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_58945"
+		Debug.AspNetCompiler.PhysicalPath = "Presentations\Pluto.Site\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_58945\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_58945"
+		Release.AspNetCompiler.PhysicalPath = "Presentations\Pluto.Site\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_58945\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "58945"
+		SlnRelativePath = "Presentations\Pluto.Site\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6715EA13-1146-4378-946A-C562D786D289}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6715EA13-1146-4378-946A-C562D786D289}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6715EA13-1146-4378-946A-C562D786D289}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6715EA13-1146-4378-946A-C562D786D289}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A4BF3C8-BAD4-4139-AF40-15F7FDF89266}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A4BF3C8-BAD4-4139-AF40-15F7FDF89266}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A4BF3C8-BAD4-4139-AF40-15F7FDF89266}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A4BF3C8-BAD4-4139-AF40-15F7FDF89266}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D55AF973-15CF-4046-B106-5F88CDCBD93F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D55AF973-15CF-4046-B106-5F88CDCBD93F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D55AF973-15CF-4046-B106-5F88CDCBD93F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D55AF973-15CF-4046-B106-5F88CDCBD93F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBDD0493-BAE1-4FFC-BC8C-AD69FF2816AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBDD0493-BAE1-4FFC-BC8C-AD69FF2816AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBDD0493-BAE1-4FFC-BC8C-AD69FF2816AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBDD0493-BAE1-4FFC-BC8C-AD69FF2816AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4A160AE-D011-4728-AA55-9C3F514F0302}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4A160AE-D011-4728-AA55-9C3F514F0302}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4A160AE-D011-4728-AA55-9C3F514F0302}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4A160AE-D011-4728-AA55-9C3F514F0302}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2471794C-79B0-4356-9825-F5CF941A85CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2471794C-79B0-4356-9825-F5CF941A85CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2471794C-79B0-4356-9825-F5CF941A85CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2471794C-79B0-4356-9825-F5CF941A85CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{422C42C4-5B41-44A7-BF69-75EF381AD5CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{422C42C4-5B41-44A7-BF69-75EF381AD5CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{422C42C4-5B41-44A7-BF69-75EF381AD5CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{422C42C4-5B41-44A7-BF69-75EF381AD5CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56930EB6-FE74-4A5E-AF77-A11D1046A018}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56930EB6-FE74-4A5E-AF77-A11D1046A018}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56930EB6-FE74-4A5E-AF77-A11D1046A018}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56930EB6-FE74-4A5E-AF77-A11D1046A018}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB254173-89AB-4C4A-9F8E-368830313156}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB254173-89AB-4C4A-9F8E-368830313156}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB254173-89AB-4C4A-9F8E-368830313156}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB254173-89AB-4C4A-9F8E-368830313156}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72508337-73E0-451B-BFBD-B9AC403B8859}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72508337-73E0-451B-BFBD-B9AC403B8859}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72508337-73E0-451B-BFBD-B9AC403B8859}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72508337-73E0-451B-BFBD-B9AC403B8859}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67708B6B-144A-4131-83CA-46B4BABF92C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67708B6B-144A-4131-83CA-46B4BABF92C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67708B6B-144A-4131-83CA-46B4BABF92C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67708B6B-144A-4131-83CA-46B4BABF92C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89460A4F-4B3F-4D58-B2C7-4BE24CA6A7D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89460A4F-4B3F-4D58-B2C7-4BE24CA6A7D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89460A4F-4B3F-4D58-B2C7-4BE24CA6A7D2}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{89460A4F-4B3F-4D58-B2C7-4BE24CA6A7D2}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6715EA13-1146-4378-946A-C562D786D289} = {17EA7441-6050-4607-A666-FC4B3E237B13}
+		{8A4BF3C8-BAD4-4139-AF40-15F7FDF89266} = {17EA7441-6050-4607-A666-FC4B3E237B13}
+		{D55AF973-15CF-4046-B106-5F88CDCBD93F} = {17EA7441-6050-4607-A666-FC4B3E237B13}
+		{FBDD0493-BAE1-4FFC-BC8C-AD69FF2816AF} = {756C8714-7C8A-49C6-9C9D-751AF81B5C72}
+		{B4A160AE-D011-4728-AA55-9C3F514F0302} = {756C8714-7C8A-49C6-9C9D-751AF81B5C72}
+		{2471794C-79B0-4356-9825-F5CF941A85CF} = {756C8714-7C8A-49C6-9C9D-751AF81B5C72}
+		{422C42C4-5B41-44A7-BF69-75EF381AD5CF} = {756C8714-7C8A-49C6-9C9D-751AF81B5C72}
+		{56930EB6-FE74-4A5E-AF77-A11D1046A018} = {756C8714-7C8A-49C6-9C9D-751AF81B5C72}
+		{CB254173-89AB-4C4A-9F8E-368830313156} = {886B388F-E783-4535-9E9F-A977B00BF3C5}
+		{72508337-73E0-451B-BFBD-B9AC403B8859} = {886B388F-E783-4535-9E9F-A977B00BF3C5}
+		{67708B6B-144A-4131-83CA-46B4BABF92C3} = {886B388F-E783-4535-9E9F-A977B00BF3C5}
+		{89460A4F-4B3F-4D58-B2C7-4BE24CA6A7D2} = {756C8714-7C8A-49C6-9C9D-751AF81B5C72}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D0F85EF8-8859-47F2-9876-F1CA0B2FFB9A}
+	EndGlobalSection
+EndGlobal
